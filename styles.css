@@ -1,0 +1,45 @@
+button {
+    background-color: #4CAF50;
+    color: rgb(236, 73, 73);
+    padding: 15px 32px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #063baf70;
+  }
+  
+  button:active {
+    font-size: 18px;
+    color: rgb(59, 43, 148);
+  }
+  input {
+    border: none; /* remove default border */
+    color: #000000; /* black text color */
+  }
+  
+  input:focus {
+    border: 2px solid #ff0000; /* red border when focused */
+  }
+  
+  input:active {
+    color: #ff0000; /* red text color when typing */
+  }
+  a {
+    color: #0000ff; /* blue text color */
+    text-decoration: none; /* remove default underline */
+  }
+  
+  a:hover {
+    color: #ff00ff; /* purple hover text color */
+    text-decoration: underline; /* add underline on hover */
+  }
+  
+  a:active {
+    font-weight: bold; /* bold text when clicked */
+  }
+  body {
+    background-image: url(background1.jpg\ -\ Copy.jpg);
+  }
